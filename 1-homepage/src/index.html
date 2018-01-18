@@ -11,14 +11,34 @@
 
 <body>
 
-    <header>
-        <h1>MY TAKE</h1>
-        <h2>...your movie selection!</h2>
+    <nav>
 
-    </header>
+        <div class="card text-center">
+                <div class="card-header">
+                  <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blockbusters</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Stars</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title">MY TAKE</h1>
+                  <p class="card-text">.....your movie choice!</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+    </nav>
+
+
 
     <main>
-
 
         <section class="recentnews">
             <div class="card" style="width: 90rem;">
@@ -45,17 +65,38 @@
             </div>
         </section>
 
-        <section class="blockbuster">
-            <h1>Hottest movie:</h1>
-            <!...To be changed to an "a" tag which will send the user to the Blockbuster page>
-            <h2>Rogue One</h2>
+
+        <section>
+                <div class="card-deck">
+                        <div class="card">
+                          <img class="card-img-top" src="..." alt="Card image cap">
+                          <div class="card-body">
+                            <h2 class="card-title">Blockbusters</h2>
+                            <h3 class="subtitle">Rough One</h3>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href="#" class="card-link">Card link</a>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="..." alt="Card image cap">
+                          <div class="card-body">
+                            <h2 class="card-title">Stars</h2>
+                            <h3 class="subtitle">Felicity Jones</h3>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </div>
+                        </div>
+                </div>
+
         </section>
 
-        <section class="star">
-            <h1>Hottest actor:</h1>
-            <!...To be changed to an "a" tag which will send the user to the Blockbuster page>
-            <h2>Felicity Jones</h2>
-        </section>
+
     </main>
 
 
