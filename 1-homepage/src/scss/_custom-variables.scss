@@ -1,3 +1,7 @@
-body {
-    margin: 3rem;
+
+@media (min-width: 576px) {
+.card-deck.border.border-warning {
+    margin-left: 0px;
+    margin-right: 0px;
+    }
 }

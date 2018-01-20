@@ -1,3 +1,37 @@
-body {
-    background-color: azure;
+
+/*...Untilites....*/
+
+.accessible-hidden {
+    position: absolute;
+    top: 0;
+    left: -999px;
+    height: 1px;
+    width: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
 }
+
+/*.....General Styling......*/
+
+body {
+    background-color: #343A40;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/*.....Specific Styling......*/
+
+.nav-link {
+    width: 200px;
+    justify-content: center;
+    color: orange;
+}
+
+
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
